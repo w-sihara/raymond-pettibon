@@ -665,7 +665,7 @@
 
 body {
   font-family: "Absans Regular", sans-serif;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   line-height: var(--line-height-normal);
   color: var(--gray-900);
   margin: auto var(--spacing-5);
@@ -674,6 +674,15 @@ body {
 header {
   font-size: var(--font-size-xl);
   color: var(--red-500);
+}
+
+nav {
+  font-size: var(--font-size-sm);
+
+  li {
+    display: inline-block;
+    margin: 0 var(--spacing-4);
+  }
 }
 
 h2 {
@@ -710,6 +719,7 @@ figure {
 
 table {
   width: 100%;
+  margin: var(--spacing-5) auto;
   border-collapse: collapse;
 
   th,
@@ -734,6 +744,31 @@ table {
     font-weight: var(--font-weight-regular);
   }
 }
+
+abbr {
+  text-decoration: none;
+}
+
+/* card */
+/* .card-1 {
+  background-color: var(--gray-100);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--box-shadow-md);
+  padding: var(--padding-4);
+  margin: var(--spacing-4) auto;
+  max-width: var(--size-sm);
+
+  h2 {
+    font-size: var(--font-size-lg);
+    color: var(--emerald-500);
+    margin-bottom: var(--spacing-2);
+  }
+
+  p {
+    font-size: var(--font-size-sm);
+    color: var(--gray-700);
+  }
+} */
 
 /* grid */
 .grid-2 {
